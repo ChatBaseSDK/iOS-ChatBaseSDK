@@ -5,11 +5,13 @@
 </p>
 ChatBaseSDK is a fully featured open source social and instant messaging framework for iOS, Android and Web. The unique fully featured, scalable and flexible framework following these key principles:
 
+
 - **Open Source.** The ChatBaseSDK is open source under the MIT license for compiled binaries
 - **Multiplatform.** iOS, Android and Web projects with full control in frontend and backend
 - **Full data control.** You have full and exclusive access to the user's chat data
 - **Quick integration.** ChatBaseSDK is fully featured out of the box
 - **Custom Backend** Powered by MySQL, you have true control of all the project
+
 
 
 ## The license
