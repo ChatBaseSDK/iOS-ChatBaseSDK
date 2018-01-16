@@ -7,27 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97997EF3200E64D700553079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97997EF2200E64D600553079 /* Main.storyboard */; };
+		97997EF5200E654A00553079 /* Lobster_1.4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97997EF4200E654A00553079 /* Lobster_1.4.otf */; };
 		97E76E4D200D01A600F95E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E4C200D01A600F95E6C /* AppDelegate.m */; };
 		97E76E50200D01A600F95E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E4F200D01A600F95E6C /* ViewController.m */; };
-		97E76E53200D01A600F95E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E51200D01A600F95E6C /* Main.storyboard */; };
 		97E76E58200D01A600F95E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E57200D01A600F95E6C /* Assets.xcassets */; };
 		97E76E5B200D01A600F95E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E59200D01A600F95E6C /* LaunchScreen.storyboard */; };
 		97E76E5E200D01A600F95E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E5D200D01A600F95E6C /* main.m */; };
 		97E76E68200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E66200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld */; };
+		97E76E93200E5C2000F95E6C /* CBHomeMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E8F200E5C1F00F95E6C /* CBHomeMedia.xcassets */; };
+		97E76E94200E5C2000F95E6C /* CBHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E90200E5C1F00F95E6C /* CBHomeViewController.xib */; };
+		97E76E95200E5C2000F95E6C /* CBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E91200E5C2000F95E6C /* CBHomeViewController.m */; };
+		97E76EA0200E5C3F00F95E6C /* LeftMenuTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E99200E5C3F00F95E6C /* LeftMenuTransition.m */; };
+		97E76EA1200E5C3F00F95E6C /* LeftMenuPresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E9A200E5C3F00F95E6C /* LeftMenuPresentation.m */; };
+		97E76EA2200E5C3F00F95E6C /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E9B200E5C3F00F95E6C /* LeftMenuViewController.m */; };
+		97E76EA3200E5C3F00F95E6C /* LeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E9E200E5C3F00F95E6C /* LeftMenuViewController.xib */; };
+		97E76EA4200E5C3F00F95E6C /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E9F200E5C3F00F95E6C /* UIView+Snapshot.m */; };
+		97E76EC6200E611F00F95E6C /* CBSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76EB3200E611C00F95E6C /* CBSignupViewController.m */; };
+		97E76EC7200E611F00F95E6C /* CBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97E76EB5200E611D00F95E6C /* CBLoginViewController.xib */; };
+		97E76EC8200E611F00F95E6C /* CBLoginMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E76EB6200E611D00F95E6C /* CBLoginMedia.xcassets */; };
+		97E76EC9200E611F00F95E6C /* CBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76EB7200E611D00F95E6C /* CBLoginViewController.m */; };
+		97E76ECA200E611F00F95E6C /* CBForgotPsswrdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97E76EB9200E611D00F95E6C /* CBForgotPsswrdViewController.xib */; };
+		97E76ECB200E611F00F95E6C /* UIColor+HexRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76EBA200E611D00F95E6C /* UIColor+HexRGB.m */; };
+		97E76ECC200E611F00F95E6C /* CBWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76EBB200E611E00F95E6C /* CBWelcomeViewController.m */; };
+		97E76ECD200E611F00F95E6C /* CBSignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97E76EBC200E611E00F95E6C /* CBSignupViewController.xib */; };
+		97E76ECE200E611F00F95E6C /* CBloginclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76EBD200E611E00F95E6C /* CBloginclass.m */; };
+		97E76ECF200E611F00F95E6C /* CBForgotPsswrdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76EC0200E611E00F95E6C /* CBForgotPsswrdViewController.m */; };
+		97E76ED0200E611F00F95E6C /* CBWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97E76EC3200E611F00F95E6C /* CBWelcomeViewController.xib */; };
+		97E76ED1200E611F00F95E6C /* EHPlainAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76EC5200E611F00F95E6C /* EHPlainAlert.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		97E76EAE200E5FDB00F95E6C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		97997EF2200E64D600553079 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		97997EF4200E654A00553079 /* Lobster_1.4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobster_1.4.otf; sourceTree = "<group>"; };
 		97E76E48200D01A600F95E6C /* ChatBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E76E4B200D01A600F95E6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97E76E4C200D01A600F95E6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		97E76E4E200D01A600F95E6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		97E76E4F200D01A600F95E6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		97E76E52200D01A600F95E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97E76E4F200D01A600F95E6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
 		97E76E57200D01A600F95E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E76E5A200D01A600F95E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97E76E5C200D01A600F95E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97E76E5D200D01A600F95E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97E76E67200E569100F95E6C /* chatbase_sdk_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chatbase_sdk_ios.xcdatamodel; sourceTree = "<group>"; };
+		97E76E8F200E5C1F00F95E6C /* CBHomeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CBHomeMedia.xcassets; sourceTree = "<group>"; };
+		97E76E90200E5C1F00F95E6C /* CBHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBHomeViewController.xib; sourceTree = "<group>"; };
+		97E76E91200E5C2000F95E6C /* CBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBHomeViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		97E76E92200E5C2000F95E6C /* CBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBHomeViewController.h; sourceTree = "<group>"; };
+		97E76E97200E5C3E00F95E6C /* LeftMenuTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuTransition.h; sourceTree = "<group>"; };
+		97E76E98200E5C3E00F95E6C /* LeftMenuPresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuPresentation.h; sourceTree = "<group>"; };
+		97E76E99200E5C3F00F95E6C /* LeftMenuTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuTransition.m; sourceTree = "<group>"; };
+		97E76E9A200E5C3F00F95E6C /* LeftMenuPresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuPresentation.m; sourceTree = "<group>"; };
+		97E76E9B200E5C3F00F95E6C /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		97E76E9C200E5C3F00F95E6C /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		97E76E9D200E5C3F00F95E6C /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		97E76E9E200E5C3F00F95E6C /* LeftMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMenuViewController.xib; sourceTree = "<group>"; };
+		97E76E9F200E5C3F00F95E6C /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		97E76EB2200E611C00F95E6C /* UIColor+HexRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexRGB.h"; sourceTree = "<group>"; };
+		97E76EB3200E611C00F95E6C /* CBSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSignupViewController.m; sourceTree = "<group>"; };
+		97E76EB4200E611C00F95E6C /* CBloginclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBloginclass.h; sourceTree = "<group>"; };
+		97E76EB5200E611D00F95E6C /* CBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBLoginViewController.xib; sourceTree = "<group>"; };
+		97E76EB6200E611D00F95E6C /* CBLoginMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CBLoginMedia.xcassets; sourceTree = "<group>"; };
+		97E76EB7200E611D00F95E6C /* CBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLoginViewController.m; sourceTree = "<group>"; };
+		97E76EB8200E611D00F95E6C /* CBSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSignupViewController.h; sourceTree = "<group>"; };
+		97E76EB9200E611D00F95E6C /* CBForgotPsswrdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBForgotPsswrdViewController.xib; sourceTree = "<group>"; };
+		97E76EBA200E611D00F95E6C /* UIColor+HexRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRGB.m"; sourceTree = "<group>"; };
+		97E76EBB200E611E00F95E6C /* CBWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWelcomeViewController.m; sourceTree = "<group>"; };
+		97E76EBC200E611E00F95E6C /* CBSignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBSignupViewController.xib; sourceTree = "<group>"; };
+		97E76EBD200E611E00F95E6C /* CBloginclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBloginclass.m; sourceTree = "<group>"; wrapsLines = 0; };
+		97E76EBE200E611E00F95E6C /* EHPlainAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHPlainAlert.h; sourceTree = "<group>"; };
+		97E76EBF200E611E00F95E6C /* CBForgotPsswrdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBForgotPsswrdViewController.h; sourceTree = "<group>"; };
+		97E76EC0200E611E00F95E6C /* CBForgotPsswrdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBForgotPsswrdViewController.m; sourceTree = "<group>"; };
+		97E76EC1200E611E00F95E6C /* CBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLoginViewController.h; sourceTree = "<group>"; };
+		97E76EC2200E611F00F95E6C /* cbsdk_login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cbsdk_login.h; sourceTree = "<group>"; };
+		97E76EC3200E611F00F95E6C /* CBWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBWelcomeViewController.xib; sourceTree = "<group>"; };
+		97E76EC4200E611F00F95E6C /* CBWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWelcomeViewController.h; sourceTree = "<group>"; };
+		97E76EC5200E611F00F95E6C /* EHPlainAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHPlainAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97997EF6200E654F00553079 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97997EF4200E654A00553079 /* Lobster_1.4.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		97E76E3F200D01A600F95E6C = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +136,13 @@
 		97E76E4A200D01A600F95E6C /* ChatBaseSDK */ = {
 			isa = PBXGroup;
 			children = (
+				97E76E6B200E5B5500F95E6C /* cbsdkHome */,
+				97E76EAF200E60B700F95E6C /* cbsdkLogin */,
 				97E76E4B200D01A600F95E6C /* AppDelegate.h */,
 				97E76E4C200D01A600F95E6C /* AppDelegate.m */,
 				97E76E4E200D01A600F95E6C /* ViewController.h */,
 				97E76E4F200D01A600F95E6C /* ViewController.m */,
-				97E76E51200D01A600F95E6C /* Main.storyboard */,
+				97997EF2200E64D600553079 /* Main.storyboard */,
 				97E76E57200D01A600F95E6C /* Assets.xcassets */,
 				97E76E59200D01A600F95E6C /* LaunchScreen.storyboard */,
 				97E76E5C200D01A600F95E6C /* Info.plist */,
@@ -72,6 +150,110 @@
 				97E76E66200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld */,
 			);
 			path = ChatBaseSDK;
+			sourceTree = "<group>";
+		};
+		97E76E6B200E5B5500F95E6C /* cbsdkHome */ = {
+			isa = PBXGroup;
+			children = (
+				97E76E96200E5C2A00F95E6C /* LeftMenuViewController */,
+				97E76E92200E5C2000F95E6C /* CBHomeViewController.h */,
+				97E76E91200E5C2000F95E6C /* CBHomeViewController.m */,
+				97E76E8F200E5C1F00F95E6C /* CBHomeMedia.xcassets */,
+				97E76E90200E5C1F00F95E6C /* CBHomeViewController.xib */,
+			);
+			path = cbsdkHome;
+			sourceTree = "<group>";
+		};
+		97E76E96200E5C2A00F95E6C /* LeftMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				97E76E98200E5C3E00F95E6C /* LeftMenuPresentation.h */,
+				97E76E9A200E5C3F00F95E6C /* LeftMenuPresentation.m */,
+				97E76E97200E5C3E00F95E6C /* LeftMenuTransition.h */,
+				97E76E99200E5C3F00F95E6C /* LeftMenuTransition.m */,
+				97E76E9D200E5C3F00F95E6C /* LeftMenuViewController.h */,
+				97E76E9B200E5C3F00F95E6C /* LeftMenuViewController.m */,
+				97E76E9E200E5C3F00F95E6C /* LeftMenuViewController.xib */,
+				97E76E9C200E5C3F00F95E6C /* UIView+Snapshot.h */,
+				97E76E9F200E5C3F00F95E6C /* UIView+Snapshot.m */,
+			);
+			name = LeftMenuViewController;
+			sourceTree = "<group>";
+		};
+		97E76EAF200E60B700F95E6C /* cbsdkLogin */ = {
+			isa = PBXGroup;
+			children = (
+				97E76EC2200E611F00F95E6C /* cbsdk_login.h */,
+				97E76ED5200E61E300F95E6C /* WelcomeViewController */,
+				97E76ED3200E61A100F95E6C /* LoginViewController */,
+				97E76ED4200E61C500F95E6C /* SignupViewController */,
+				97E76ED2200E617900F95E6C /* ForgotPassword */,
+				97E76EB6200E611D00F95E6C /* CBLoginMedia.xcassets */,
+				97E76ED6200E62C700F95E6C /* CBLoginClass */,
+				97E76ED7200E62EE00F95E6C /* Helpers */,
+				97997EF6200E654F00553079 /* Resources */,
+			);
+			path = cbsdkLogin;
+			sourceTree = "<group>";
+		};
+		97E76ED2200E617900F95E6C /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				97E76EBF200E611E00F95E6C /* CBForgotPsswrdViewController.h */,
+				97E76EC0200E611E00F95E6C /* CBForgotPsswrdViewController.m */,
+				97E76EB9200E611D00F95E6C /* CBForgotPsswrdViewController.xib */,
+			);
+			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		97E76ED3200E61A100F95E6C /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				97E76EC1200E611E00F95E6C /* CBLoginViewController.h */,
+				97E76EB7200E611D00F95E6C /* CBLoginViewController.m */,
+				97E76EB5200E611D00F95E6C /* CBLoginViewController.xib */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		97E76ED4200E61C500F95E6C /* SignupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				97E76EB8200E611D00F95E6C /* CBSignupViewController.h */,
+				97E76EB3200E611C00F95E6C /* CBSignupViewController.m */,
+				97E76EBC200E611E00F95E6C /* CBSignupViewController.xib */,
+			);
+			name = SignupViewController;
+			sourceTree = "<group>";
+		};
+		97E76ED5200E61E300F95E6C /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				97E76EC4200E611F00F95E6C /* CBWelcomeViewController.h */,
+				97E76EBB200E611E00F95E6C /* CBWelcomeViewController.m */,
+				97E76EC3200E611F00F95E6C /* CBWelcomeViewController.xib */,
+			);
+			name = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		97E76ED6200E62C700F95E6C /* CBLoginClass */ = {
+			isa = PBXGroup;
+			children = (
+				97E76EB4200E611C00F95E6C /* CBloginclass.h */,
+				97E76EBD200E611E00F95E6C /* CBloginclass.m */,
+			);
+			name = CBLoginClass;
+			sourceTree = "<group>";
+		};
+		97E76ED7200E62EE00F95E6C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				97E76EBE200E611E00F95E6C /* EHPlainAlert.h */,
+				97E76EC5200E611F00F95E6C /* EHPlainAlert.m */,
+				97E76EB2200E611C00F95E6C /* UIColor+HexRGB.h */,
+				97E76EBA200E611D00F95E6C /* UIColor+HexRGB.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +266,7 @@
 				97E76E44200D01A600F95E6C /* Sources */,
 				97E76E45200D01A600F95E6C /* Frameworks */,
 				97E76E46200D01A600F95E6C /* Resources */,
+				97E76EAE200E5FDB00F95E6C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,8 +316,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E76E5B200D01A600F95E6C /* LaunchScreen.storyboard in Resources */,
+				97E76ECD200E611F00F95E6C /* CBSignupViewController.xib in Resources */,
+				97E76E94200E5C2000F95E6C /* CBHomeViewController.xib in Resources */,
+				97E76EA3200E5C3F00F95E6C /* LeftMenuViewController.xib in Resources */,
+				97E76ED0200E611F00F95E6C /* CBWelcomeViewController.xib in Resources */,
+				97997EF3200E64D700553079 /* Main.storyboard in Resources */,
 				97E76E58200D01A600F95E6C /* Assets.xcassets in Resources */,
-				97E76E53200D01A600F95E6C /* Main.storyboard in Resources */,
+				97E76E93200E5C2000F95E6C /* CBHomeMedia.xcassets in Resources */,
+				97E76EC7200E611F00F95E6C /* CBLoginViewController.xib in Resources */,
+				97E76ECA200E611F00F95E6C /* CBForgotPsswrdViewController.xib in Resources */,
+				97E76EC8200E611F00F95E6C /* CBLoginMedia.xcassets in Resources */,
+				97997EF5200E654A00553079 /* Lobster_1.4.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +337,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E76E95200E5C2000F95E6C /* CBHomeViewController.m in Sources */,
+				97E76ECE200E611F00F95E6C /* CBloginclass.m in Sources */,
+				97E76ED1200E611F00F95E6C /* EHPlainAlert.m in Sources */,
+				97E76EC6200E611F00F95E6C /* CBSignupViewController.m in Sources */,
 				97E76E50200D01A600F95E6C /* ViewController.m in Sources */,
+				97E76EC9200E611F00F95E6C /* CBLoginViewController.m in Sources */,
+				97E76ECC200E611F00F95E6C /* CBWelcomeViewController.m in Sources */,
+				97E76EA2200E5C3F00F95E6C /* LeftMenuViewController.m in Sources */,
+				97E76EA4200E5C3F00F95E6C /* UIView+Snapshot.m in Sources */,
 				97E76E68200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld in Sources */,
 				97E76E4D200D01A600F95E6C /* AppDelegate.m in Sources */,
+				97E76ECF200E611F00F95E6C /* CBForgotPsswrdViewController.m in Sources */,
+				97E76EA0200E5C3F00F95E6C /* LeftMenuTransition.m in Sources */,
+				97E76EA1200E5C3F00F95E6C /* LeftMenuPresentation.m in Sources */,
 				97E76E5E200D01A600F95E6C /* main.m in Sources */,
+				97E76ECB200E611F00F95E6C /* UIColor+HexRGB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		97E76E51200D01A600F95E6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97E76E52200D01A600F95E6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		97E76E59200D01A600F95E6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +480,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VU9DA58TZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ChatBaseSDK",
+				);
 				INFOPLIST_FILE = ChatBaseSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -299,6 +501,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VU9DA58TZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ChatBaseSDK",
+				);
 				INFOPLIST_FILE = ChatBaseSDK/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

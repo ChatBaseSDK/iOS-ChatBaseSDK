@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CBForgotPsswrdViewController">
+            <connections>
+                <outlet property="appTitleWVC" destination="vPw-41-O9U" id="QQt-gp-gN2"/>
+                <outlet property="cancelButton" destination="gp0-Yy-25A" id="rL4-wK-7jb"/>
+                <outlet property="email" destination="tx5-vG-gSy" id="LEY-vx-tuw"/>
+                <outlet property="logoImageWVC" destination="5JK-mg-Vhb" id="n8B-o2-Fn5"/>
+                <outlet property="recoverButton" destination="ikX-Oc-vSk" id="vPT-Du-5ro"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gp0-Yy-25A">
+                    <rect key="frame" x="324" y="45" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="B6i-rY-j8g"/>
+                        <constraint firstAttribute="width" constant="35" id="bLo-6K-nOW"/>
+                    </constraints>
+                    <state key="normal" image="cancel_button"/>
+                    <connections>
+                        <action selector="cancelLoginViewController:" destination="-1" eventType="touchUpInside" id="ALs-ef-rv8"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="tx5-vG-gSy">
+                    <rect key="frame" x="16" y="189" width="343" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="ZGl-Ta-dNW"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" textContentType="email"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChatBase" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPw-41-O9U">
+                    <rect key="frame" x="69" y="40" width="123.5" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="0BR-VG-5OY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="30"/>
+                    <color key="textColor" red="0.15604202440000001" green="0.60300676080000004" blue="0.97140139250000002" alpha="0.84952684860000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_launchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="5JK-mg-Vhb">
+                    <rect key="frame" x="16" y="40" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="DDJ-4r-p2e"/>
+                        <constraint firstAttribute="height" constant="45" id="q5c-tn-11d"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikX-Oc-vSk">
+                    <rect key="frame" x="16" y="304" width="343" height="36"/>
+                    <color key="backgroundColor" red="0.49612841306075456" green="0.21136808020718637" blue="0.97140139250000002" alpha="0.84952684860000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="dLd-o3-ofc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                    <state key="normal" title="Recover">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please, enter the email you registered with." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W41-JS-rdw">
+                    <rect key="frame" x="16" y="227" width="343" height="14.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14.5" id="H30-cP-d95"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.15604202440000001" green="0.60300676080000004" blue="0.97140139250000002" alpha="0.84952684860000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©ChatBaseSDK - Find us in GitHub " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-vH-3Fj">
+                    <rect key="frame" x="0.0" y="648" width="375" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="W41-JS-rdw" secondAttribute="trailing" constant="16" id="1qv-QH-RRi"/>
+                <constraint firstItem="tx5-vG-gSy" firstAttribute="top" secondItem="vPw-41-O9U" secondAttribute="bottom" constant="104" id="DS2-XP-Zpi"/>
+                <constraint firstItem="ikX-Oc-vSk" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="FmU-2z-Lxa"/>
+                <constraint firstItem="NuK-vH-3Fj" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Gpa-3c-1k4"/>
+                <constraint firstItem="ikX-Oc-vSk" firstAttribute="top" secondItem="W41-JS-rdw" secondAttribute="bottom" constant="62.5" id="H8g-1g-ley"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ikX-Oc-vSk" secondAttribute="trailing" constant="16" id="Ltb-2o-wn0"/>
+                <constraint firstItem="ikX-Oc-vSk" firstAttribute="top" secondItem="W41-JS-rdw" secondAttribute="bottom" constant="62.5" id="LuM-XW-Qwy"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="gp0-Yy-25A" secondAttribute="trailing" constant="16" id="PsT-EB-q2H"/>
+                <constraint firstItem="W41-JS-rdw" firstAttribute="top" secondItem="tx5-vG-gSy" secondAttribute="bottom" constant="8" id="PyC-EM-b7H"/>
+                <constraint firstItem="NuK-vH-3Fj" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="Qh0-79-zqc"/>
+                <constraint firstItem="5JK-mg-Vhb" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="Re0-EY-owc"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="tx5-vG-gSy" secondAttribute="trailing" constant="16" id="RyW-Of-20i"/>
+                <constraint firstItem="tx5-vG-gSy" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="SgK-dP-Woc"/>
+                <constraint firstItem="tx5-vG-gSy" firstAttribute="top" secondItem="5JK-mg-Vhb" secondAttribute="bottom" constant="104" id="W1c-bg-JRY"/>
+                <constraint firstItem="tx5-vG-gSy" firstAttribute="top" secondItem="gp0-Yy-25A" secondAttribute="bottom" constant="109" id="WF3-oU-8Tn"/>
+                <constraint firstItem="vPw-41-O9U" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="WRv-Hx-Mre"/>
+                <constraint firstItem="vPw-41-O9U" firstAttribute="leading" secondItem="5JK-mg-Vhb" secondAttribute="trailing" constant="8" id="aJl-K7-jP8"/>
+                <constraint firstItem="W41-JS-rdw" firstAttribute="top" secondItem="tx5-vG-gSy" secondAttribute="bottom" constant="8" id="c6h-A4-eJa"/>
+                <constraint firstItem="W41-JS-rdw" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="j1E-8W-EM2"/>
+                <constraint firstItem="5JK-mg-Vhb" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="k0B-Mu-5pU"/>
+                <constraint firstItem="vPw-41-O9U" firstAttribute="leading" secondItem="5JK-mg-Vhb" secondAttribute="trailing" constant="8" id="mba-gC-pua"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="NuK-vH-3Fj" secondAttribute="bottom" constant="3" id="pde-zo-mGp"/>
+                <constraint firstItem="tx5-vG-gSy" firstAttribute="top" secondItem="vPw-41-O9U" secondAttribute="bottom" constant="104" id="sON-XL-gKD"/>
+                <constraint firstItem="gp0-Yy-25A" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="25" id="tOx-Lm-e5P"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="43.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cancel_button" width="50" height="50"/>
+        <image name="logo_launchscreen" width="128" height="128"/>
+    </resources>
+</document>
