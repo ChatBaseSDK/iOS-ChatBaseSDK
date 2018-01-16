@@ -1,7 +1,7 @@
 # iOS-ChatBaseSDK
 ### iOS ChatBase SDK - Open Source Social & Mobile Messenger
 
-<img target="_blank" src="https://user-images.githubusercontent.com/5912641/35004347-07042186-faf0-11e7-9f9b-38484052a583.png" height="150" width="150" />
+<img target="_blank" src="https://user-images.githubusercontent.com/5912641/35004347-07042186-faf0-11e7-9f9b-38484052a583.png" height="150" width="150" position=center/>
 
 ChatBaseSDK is a fully featured open source social and instant messaging framework for iOS, Android and Web. The unique fully featured, scalable and flexible framework following these key principles:
 
