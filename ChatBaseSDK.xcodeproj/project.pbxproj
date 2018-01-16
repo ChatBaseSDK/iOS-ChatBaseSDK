@@ -10,10 +10,10 @@
 		97E76E4D200D01A600F95E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E4C200D01A600F95E6C /* AppDelegate.m */; };
 		97E76E50200D01A600F95E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E4F200D01A600F95E6C /* ViewController.m */; };
 		97E76E53200D01A600F95E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E51200D01A600F95E6C /* Main.storyboard */; };
-		97E76E56200D01A600F95E6C /* ChatBaseSDK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E54200D01A600F95E6C /* ChatBaseSDK.xcdatamodeld */; };
 		97E76E58200D01A600F95E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E57200D01A600F95E6C /* Assets.xcassets */; };
 		97E76E5B200D01A600F95E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E76E59200D01A600F95E6C /* LaunchScreen.storyboard */; };
 		97E76E5E200D01A600F95E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E5D200D01A600F95E6C /* main.m */; };
+		97E76E68200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97E76E66200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +23,11 @@
 		97E76E4E200D01A600F95E6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		97E76E4F200D01A600F95E6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97E76E52200D01A600F95E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97E76E55200D01A600F95E6C /* ChatBaseSDK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatBaseSDK.xcdatamodel; sourceTree = "<group>"; };
 		97E76E57200D01A600F95E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97E76E5A200D01A600F95E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97E76E5C200D01A600F95E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97E76E5D200D01A600F95E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97E76E67200E569100F95E6C /* chatbase_sdk_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chatbase_sdk_ios.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				97E76E59200D01A600F95E6C /* LaunchScreen.storyboard */,
 				97E76E5C200D01A600F95E6C /* Info.plist */,
 				97E76E5D200D01A600F95E6C /* main.m */,
-				97E76E54200D01A600F95E6C /* ChatBaseSDK.xcdatamodeld */,
+				97E76E66200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld */,
 			);
 			path = ChatBaseSDK;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E76E50200D01A600F95E6C /* ViewController.m in Sources */,
+				97E76E68200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld in Sources */,
 				97E76E4D200D01A600F95E6C /* AppDelegate.m in Sources */,
 				97E76E5E200D01A600F95E6C /* main.m in Sources */,
-				97E76E56200D01A600F95E6C /* ChatBaseSDK.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,13 +332,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		97E76E54200D01A600F95E6C /* ChatBaseSDK.xcdatamodeld */ = {
+		97E76E66200E569100F95E6C /* chatbase_sdk_ios.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				97E76E55200D01A600F95E6C /* ChatBaseSDK.xcdatamodel */,
+				97E76E67200E569100F95E6C /* chatbase_sdk_ios.xcdatamodel */,
 			);
-			currentVersion = 97E76E55200D01A600F95E6C /* ChatBaseSDK.xcdatamodel */;
-			path = ChatBaseSDK.xcdatamodeld;
+			currentVersion = 97E76E67200E569100F95E6C /* chatbase_sdk_ios.xcdatamodel */;
+			path = chatbase_sdk_ios.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
