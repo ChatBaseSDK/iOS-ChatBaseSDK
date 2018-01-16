@@ -11,6 +11,7 @@ ChatBaseSDK is a fully featured open source social and instant messaging framewo
 - **Quick integration.** ChatBaseSDK is fully featured out of the box
 - **Custom Backend** Powered by MySQL, you have true control of all the project
 
+
 ## The license
 This project uses the MIT license which is a commercially friendly open source license. The license has the following features:
 
